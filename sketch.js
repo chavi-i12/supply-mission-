@@ -4,7 +4,7 @@ const Engine = Matter.Engine;
 const World = Matter.World;
 const Bodies = Matter.Bodies;
 const Body = Matter.Body;
-var rect1, rect2, rect3, rect4;
+var rect1, rect2, rect3;
 
 function preload()
 {
@@ -35,8 +35,6 @@ function setup() {
 	rect1.shapeColor="red";
 	rect2.shapeColor="red";
 	rect3.shapeColor="red";
-	rect4.shapeColor="black";
-	packageSprite.collide(rect4);
 
 
 	engine = Engine.create();
